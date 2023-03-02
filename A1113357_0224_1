@@ -1,0 +1,12 @@
+public class A1113357_0224_1{
+  public static void main (String [] argv){
+    System.out.print("請輸入一個數字");
+    Scanner sc = new Scanner(System.in);
+    int num = sc.nextInt();
+    if( num%2==0){
+      System.out.println(num + "為偶數");
+    }else{
+      System.out.println(num + "為奇數");
+    } 
+  }
+}
