@@ -1,0 +1,10 @@
+public class A1113357_0224_2{
+  public static void main (String [] argv){
+    System.out.println("請輸入攝氏溫度");
+    Scanner sc = new Scanner(System.in);
+    int temp = sc.nextInt();
+    int ntemp;
+    ntemp= temp*9/5+32;
+    System.out.println("華氏溫度為"+);
+  }
+}
