@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class A1113357_0317_1{
+    public static void main(String[] argv){
+        System.out.println("請輸入n值:");
+        Scanner num1 =new Scanner(System.in);
+        int n=num1.nextInt();
+        System.out.println("請輸入m值:");
+        Scanner num2 =new Scanner(System.in);
+        int m=num2.nextInt();
+        int [][] Array= new int[n][m];
+
+        for(int i=0; i<n; i++){
+            for(int j=0; j<m; j++){
+                Array[i][j]= (i+1)*(j+1);
+            }
+        }
+
+        System.out.println(2"輸入的二維陣列為:");
+        for(int [] a:Array){
+            for(int b: a){
+                System.out.print(b+" ");
+            }
+            System.out.println();
+        }
+    }
+
+}
