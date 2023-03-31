@@ -7,10 +7,10 @@ class animal{
    int speed;
 
    void show(){
-    System.out.println("Name："+this.name);
-    System.out.println("Height："+this.height);
-    System.out.println("Weight："+this.weight);
-    System.out.println("Speed："+this.speed);
+    System.out.println("Name："+name);
+    System.out.println("Height："+height);
+    System.out.println("Weight："+weight);
+    System.out.println("Speed："+speed);
    }
   
    double distance(int x,double y){
